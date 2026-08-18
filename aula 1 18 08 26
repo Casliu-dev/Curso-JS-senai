@@ -1,0 +1,12 @@
+< ! DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF=8"
+    <title>Espermatozoide voador</title>
+</head>
+<body>
+    <h1>Hello World! :)</h1>
+    <p>Seu primeiro hello world em HTML</p>
+    <script>
+    console.log ("hello world, JS!")
+# primeiro código, usado para jogar uma linha de texto no terminal (ou no caso no site)
