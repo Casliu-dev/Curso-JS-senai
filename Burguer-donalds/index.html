@@ -181,10 +181,16 @@
         <div class="linha-formulario linha-formulario-completa">
           <label for="mensagem">Observações (opcional)</label>
           <textarea name="mensagem" id="mensagem" rows="3"
-          placeholder="Alguma preferência ou restrição alimentar?"></textarea>
+            placeholder="Alguma preferência ou restrição alimentar?"></textarea>
         </div>
-      </form>
+        <div class="linha-formulario linha-formulario-completa">
+          <label for="Foto">Foto de referência (opcional) </label>
+          <input type="file" id="foto" name="foto" accept="image/~*">
 
+          <img id="previaFoto" class="previa-foto" alt="">
+        </div>
+        <button class="botao botao-primario formulario-enviar">Confirmar reserva</button>
+      </form>
     </section>
 
   </main>
