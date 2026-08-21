@@ -107,4 +107,42 @@ img {
     (--color-dark), #3a241a;
     width: 100%;
     padding: 80px 24px;
-}
+}   
+
+.destaque-conteudo {
+    max-width: 100%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 48px;
+   color: #fff
+    }
+
+    .destaque-texto {
+        flex: 1 1 400px;
+    }
+
+    .destaque h1 {
+        font-size: 3rem;
+        line-height: 1.15;
+        margin-bottom: 16px;
+        color: var(--color-accent);
+    }
+
+    .destaque p {
+        font-size: 1.15rem;
+        color: #e8e8cd;
+        max-width: 480x;
+        margin-bottom: 32px;
+    }
+
+    .destaque-imagem  {
+        max-width: 300px;
+        flex: 1 1 260px;
+    }
+
+    .destaque-imagem img {
+        width: 100%;
+        height: auto;
+    }
