@@ -20,7 +20,7 @@
 <body>
   <header class="cabecalho-site">
     <nav class="barra-navegacao">
-      <a href="#" class="logo">🔥 CHAMA BURGER</a>
+      <a href="#" class="logo">🔥 Burguer Donalds</a>
       <ul class="links-menu" id="linksMenu">
         <li><a href="#cardapio">Cardápio</a></li>
         <li><a href="#sobre">Sobre</a></li>
@@ -65,16 +65,16 @@
         <article class="cardapio-cartao">
           <span class="selo">Mais pedido</span>
           <div class="cardapio-icone">
-            <img src="assets/icons/burger-bacon.svg" alt="Ilustração do burger Bacon">
+            <img src="assets/icn/burger-bacon.svg" alt="Ilustração do burger Bacon">
           </div>
-          <h3>Bacon</h3>
+          <h3>milk shake</h3>
           <p>Tudo do clássico + fatias generosas de bacon crocante.</p>
           <span class="preco">R$ 28,90</span>
           <button class="adicionar-carrinho" data-name="Bacon" data-price="28.90">Adicionar ao pedido</button>
         </article>
         <article class="cardapio-cartao">
           <div class="cardapio-icone">
-            <img src="assets/icons/burger-veggie.svg" alt="Ilustração do burger Veggie">
+            <img src="assets/icn/burger-veggie.svg" alt="Ilustração do burger Veggie">
           </div>
           <h3>Veggie</h3>
           <p>Hambúrguer de grão-de-bico, queijo, alface e cebola roxa.</p>
@@ -83,8 +83,8 @@
         </article>
         <article class="cardapio-cartao">
           <div class="cardapio-icone cardapio-icone-combo">
-            <img src="assets/icons/fritas.svg" alt="Porção de fritas">
-            <img src="assets/icons/bebida.svg" alt="Refrigerante gelado">
+            <img src="assets/icn/fritas.svg" alt="Porção de fritas">
+            <img src="assets/icn/bebida.svg" alt="Refrigerante gelado">
           </div>
           <h3>Combo Fritas + Refri</h3>
           <p>Fritas crocantes e um refrigerante gelado pra completar.</p>
@@ -102,7 +102,7 @@
       <div class="sobre-texto">
         <span class="rotulo-secao">Nossa história</span>
         <h2>Comida de boteco, com capricho de restaurante</h2>
-        <p>O Chama Burger começou numa churrasqueira de quintal, testando receitas com os
+        <p>O Burguer Donalds começou numa churrasqueira de quintal, testando receitas com os
           amigos. Hoje, o método continua o mesmo: carne grelhada na brasa, pão fresco
           do dia e ingredientes comprados na feira — só que agora pra atender o bairro
           inteiro.</p>
@@ -190,7 +190,7 @@
 
   <footer class="rodape-site" id="contato">
     <div class="rodape-info">
-      <p>&copy; 2026 Burguer Donalds — Rua das Brasas, 123, São Caetano do Sul</p>
+      <p>&copy; 2026 Burguer Donalds — Rua general Osório, 37, São Paulo</p>
       <p class="rodape-horario">Todos os dias, das 18h à meia-noite</p>
     </div>
 
@@ -202,6 +202,11 @@
       <li><a href="#" aria-label="Ver no mapa"><i class="fa-solid fa-location-dot"></i><span>Ver no mapa</span></a></li>
     </ul>
   </footer>
+  <div class="resumo-carrinho" id="resumoCarrinho">
+    <span class="carrinho-icone">🛒</span>
+    <span id="carrinhoQuantidade">0</span> itens · <span id="carrinhoTotal">R$ 0,00</span>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
