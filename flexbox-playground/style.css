@@ -39,3 +39,28 @@ h1 {
 .box4 { background: #2A9D8F; }
 .box5 { background: #8E44AD; }
 .box6 { background: #E76F51; }
+
+.container {
+  border: 3px dashed #999;
+  min-height: 320px;
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: wrap ;
+  
+  justify-content: center ;
+
+  align-items: center;
+
+  gap: 16px;
+}
+
+.box2 {
+  order: -1 ;
+}
+
+.box4 {
+  flex-grow: 1 ;
+}

@@ -99,7 +99,7 @@ img {                                                /* toda <img> do HTML: dest
 }
 
 .destaque {                                         /* <section class="destaque"> — a faixa de destaque logo após o header */
-  background: linear-gradient(135deg, var(--color-dark), #3a241a); /* gradiente escuro que pinta TODA a largura da seção */
+  background: linear-gradient(135deg, var(--color-dark), #7A1F23); /* gradiente escuro puxado pro vermelho (vinho) que pinta TODA a largura da seção */
   width: 100%;                                         /* ocupa 100% da largura da tela (comportamento padrão de <section>, reforçado aqui) */
   padding: 80px 24px;                                  /* respiro vertical grande + margem lateral mínima em telas estreitas */
 }
@@ -124,7 +124,7 @@ img {                                                /* toda <img> do HTML: dest
 }
 .destaque p {                                       /* o <p> de descrição dentro de .destaque-texto */
   font-size: 1.15rem;                                   /* um pouco maior que o texto comum do site */
-  color: #e8d9cd;                                       /* bege claro, mesma cor usada nos links do menu */
+  color: #F2D3D1;                                       /* rosado claro, combina com o fundo avermelhado do destaque */
   max-width: 480px;                                     /* impede que a linha de texto fique longa demais e difícil de ler */
   margin-bottom: 32px;                                  /* espaço antes do botão "Ver cardápio" */
 }
