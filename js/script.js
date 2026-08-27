@@ -170,7 +170,7 @@ else {
 
 */
 
-let lado1 = Number(prompt("Qual o primeiro lado?"))
+/* let lado1 = Number(prompt("Qual o primeiro lado?"))
 let lado2 = Number(prompt("Qual o segundo lado?"))
 let lado3 = Number(prompt("Qual o terceiro lado?"))
 
@@ -193,3 +193,66 @@ if (lado1 < lado2 + lado3 && lado2 < lado1 + lado3 && lado3 < lado1 + lado2) {
 else {
     alert("Nao e possivel formar um triangulo")
 }
+*/
+
+// 2 Exercicio dificil
+/*
+let grade = Number(prompt("Qual sua nota?"))
+
+if (grade >= 90 && grade <= 100) {
+    alert("A")
+}
+
+else if (grade >= 80 && grade < 89) {
+    alert("B")
+}
+
+else if (grade >= 70 && grade < 79) {
+    alert("C")
+}
+
+else if (grade >= 60 && grade < 69) {
+    alert("D")
+}
+
+else if (grade >= 0 && grade < 59) {
+    alert("F")
+}
+
+else {
+    alert("Nota invalida")
+}
+*/
+
+// 3 exercicio dificil
+/*
+
+let weight = Number(prompt("Qual seu peso? (Kg)"))
+let height = Number(prompt("Qual sua altura? (m)"))
+
+let imc = weight / (height ** 2)
+
+if (imc < 18.5) {
+    alert("Abaixo do peso")
+}
+else if (imc >= 18.5 && imc < 25) {
+    alert("Peso normal")
+}
+else if (imc >= 25 && imc < 30) {
+    alert("Sobrepeso")
+}
+else {
+    alert("Obesidade")  
+}
+*/
+
+// ano bissexto
+
+let year = Number(prompt("Qual ano deseja verificar?"))
+
+if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+    alert("Ano bissexto")
+}
+else {
+    alert("Nao e ano bissexto")
+}  
