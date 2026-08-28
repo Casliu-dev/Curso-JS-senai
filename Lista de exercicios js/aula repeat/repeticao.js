@@ -95,6 +95,7 @@ while(num < 5)
 
 // sorteia UMA vez, antes do loop: Math.random() da 0 a 0.999...,
 // x10 = 0 a 9.99, floor = 0 a 9, +1 = 1 a 10
+/*
 const secret = Math.floor(Math.random() * 10) + 1;
 
 let palpite;
@@ -102,8 +103,10 @@ let tentativas = 0;
 
 console.log("Adivinhe o numero entre 1 e 10.")
 //console.log("(gabarito: " + secret + ")") // descomente pra testar
-
+*/
 // do..while: o primeiro palpite sempre acontece, entao testa DEPOIS
+
+/*
 do {
 
     palpite = Number(prompt("Seu Palpite"))
@@ -129,3 +132,74 @@ do {
 
 }
 while(palpite !== secret)
+*/
+/*
+for (let conta = 0; conta <= 10; conta ++){
+
+        console.log(conta)
+
+}
+
+console.log("O loop terminou")
+
+*/
+
+// tabuada
+
+/*
+const numero = Number(prompt("tabuada de qual numero"))
+
+if (Number.isNaN(numero)) {
+    alert("Numero invalido")
+}
+else {
+
+    console.log(`\n Tabuada do ${numero} \n`)
+
+    for (let i = 1; i <= 10; i++) {
+
+        const resultado = numero * i
+
+        console.log(`${numero} x ${i} = ${resultado}`)
+    }
+}
+*/
+/*
+console.log("lancamento em: \n")
+
+for (let conta = 10; conta >= 1; conta--)
+{
+    console.log(conta + "...")
+}
+
+console.log("decolar!")
+*/
+
+
+for (let numero = 1; numero <= 3; numero++)
+{
+    let linha = ""
+
+    for (let vez = 1; vez <= 3; vez++){
+
+        linha = linha + numero + " "
+    }
+
+    console.log(linha)
+}
+
+
+
+for(let numero = 1; numero <=1 ; numero++){
+
+    for (let vezes = 1; vezes <=1; vezes++) {
+
+        let resultado = "";
+
+        for (let vezes = 1; vezes <= 5; vezes++) {
+            resultado += numero + " "
+
+            console.log(resultado)
+        }
+    }
+}
