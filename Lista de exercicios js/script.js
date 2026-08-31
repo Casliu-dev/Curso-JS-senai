@@ -247,7 +247,7 @@ else {
 */
 
 // ano bissexto
-
+/*
 let year = Number(prompt("Qual ano deseja verificar?"))
 
 if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
@@ -255,5 +255,6 @@ if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
 }
 else {
     alert("Nao e ano bissexto")
-}  
-
+} 
+    */
+   
